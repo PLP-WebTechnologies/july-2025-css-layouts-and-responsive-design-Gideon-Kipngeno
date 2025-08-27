@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National University - CSS Layout Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <h1>National University</h1>
+            <nav class="flex-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Layout using CSS Grid -->
+    <main class="grid-container">
+        <!-- Content Area -->
+        <section class="content">
+            <h2>Welcome to National University</h2>
+            <p>Empowering students to achieve excellence through quality education and leadership development.</p>
+            <div class="cards flex-container">
+                <div class="card">Computer Science</div>
+                <div class="card">Business Administration</div>
+                <div class="card">Education</div>
+                <div class="card">Public Health</div>
+            </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>News & Updates</h3>
+            <ul>
+                <li>Admissions open for Fall 2025</li>
+                <li>Scholarship applications available</li>
+                <li>New courses added in Computer Science</li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 National University. All rights reserved.</p>
+    </footer>
+</body>
+</html>
